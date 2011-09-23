@@ -1,0 +1,42 @@
+  <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+  <html>
+    <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <title>[% feed.title %]</title>
+      <style>
+          iframe { display: none !important; }
+          .thumbs { display: none; }
+          ul.d2 { display: none; }
+          a[title="Share on Twitter"] { display: none }
+          a[title="Share on Facebook"] { display: none }
+          div.msin_entry.row0 { background-color: #DDE }
+          div.msin_entry.row1 { background-color: #EEF }
+          div.msin_entry {
+              padding: 4px;
+              margin-bottom: 10px;
+              border: 1px solid #ccc;
+          }
+          h2 a {
+              font-face: Arial;
+              text-decoration: none;
+              color: #555;
+          }
+          h2 a:hover { text-decoration: underline; color: #222; }
+      </style>
+    </head>
+    <body>
+
+[% USE Date %]
+
+Updated: [% Date.format() %]<br/><br/>
+
+  [% FOREACH entry IN feed.entries %]
+    <div class="msin_entry row[% loop.index MOD 2 %]">
+      <h2><a href="[% entry.link | url | html_entity %]">[% entry.title %]</h2></a>
+      [% entry.content.body %]
+    </div>
+  [% END %]
+    </body>
+  </html>

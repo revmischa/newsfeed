@@ -1,0 +1,2 @@
+#!/bin/bash
+cd /home/www/sites/news && perlanet config.yml

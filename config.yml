@@ -1,0 +1,122 @@
+
+  title: MSIN
+  description: desc
+  url: http://news.int80.biz/
+  author:
+    name: Mischa Spiegelmock
+    email: mspiegelmock@gmail.com
+  entries: 80
+  opml: opml.xml
+  page:
+    file: index.html
+    template: index.tt
+  feed:
+    file: atom.xml
+    format: Atom
+  cache_dir: /tmp/feeds
+  feeds:
+    - url: http://lwn.net/headlines/newrss
+      title: LWN
+    - url: http://ci.bukkit.org/other/latest_recommended.rss
+      title: Latest Bukkit Recommended Builds
+    - url: http://rss.slashdot.org/Slashdot/slashdot
+      title: Slashdot
+    - url: http://www.jerkcity.com/jc.rss
+      title: JerkCity
+    - url: 'http://blog.llvm.org/feeds/posts/default?alt=rss'
+      title: LLVM Blog
+    - url: 'http://feeds.feedburner.com/EmbeddedInAcademia?format=xml'
+      title: EmbeddedInAcademia
+    - url: http://syndication.thedailywtf.com/TheDailyWtf
+      title: Daily WTF
+    - url: 'http://feeds.feedburner.com/RossBencina?format=xml'
+      title: Ross Bencina
+    - url: 'http://acemonstertoys.org/rss.xml'
+      title: AMT
+    - url: 'http://www.audiomulch.com/blog/feed'
+      title: AudioMulch
+    - url: http://alyssadiamond.wordpress.com/feed/
+      title: Lyzi
+    - url: http://www.zeecc.com/index.php?format=feed&type=rss
+      title: ZeEcC
+    - url: 'http://feeds.feedburner.com/GoogleOpenSourceBlog'
+      title: Google Open Source
+    - url: http://www.ucdot.org/ucdot.rss
+      title: uClinux
+    - url: http://free-electrons.com/feed/
+      title: Free Electrons
+    - url: http://scottlocklin.wordpress.com/feed/
+      title: Locklin on Science
+    - url: http://www.asystemapart.com/rss
+      title: A System Apart
+    - url: http://redshirtlament.blogspot.com/feeds/posts/default?alt=rss
+      title: Redshirt's Lament
+    - url: http://attrition.org/rss/attrition_news.rss
+      title: Attrition
+    - url: http://perlnews.org/feed/
+      title: Perl News
+    - url: http://feeds.feedburner.com/gnucitizen
+      title: GNUCitizen
+    - url: http://blog.plackperl.org/rss.xml
+      title: Plack Blog
+    - url: 'http://feeds.feedburner.com/github?format=xml'
+      title: GitHub blog
+    - url: 'http://feeds.feedburner.com/TheAngryPharmacist?format=xml'
+      title: The Angry Pharmacist
+    - url: 'http://dilby.net/rss'
+      title: Dilby
+    - url: 'http://feeds.feedburner.com/chameleonosx86?format=xml'
+      title: Chameleon
+    - url: http://news.ycombinator.com/rss
+      title: Hacker News
+    - url: 'http://www.facebook.com/feeds/page.php?id=173410149380712&format=rss20'
+      title: The Kapybara Kid
+    - url: 'http://www.xbitlabs.com/misc/rss/'
+      title: X-Bit Labs
+    - url: 'http://feeds.feedburner.com/shortinfosec?format=xml'
+      title: InfoSec Short Takes
+    - url: 'http://www.dc3.mil/feeds/dispatch.xml'
+      title: DC3 Dispatch
+    - url: 'http://davidz25.blogspot.com/feeds/posts/default?alt=rss'
+      title: Inactivity Log
+    - url: 'http://learningwebgl.com/blog/?feed=rss2'
+      title: Learn WebGL
+    - url: 'http://forensiczone.blogspot.com/feeds/posts/default?alt=rss'
+      title: Forensic Zone
+    - url: 'http://danw.mysterion.org/feed/rss/'
+      title: Dan Winship
+    - url: 'http://blogs.gnome.org/dcbw/feed/'
+      title: Dan Williams
+    - url: 'http://0pointer.de/blog/index.rss20'
+      title: Lennart Poettering
+    - url: 'http://mjg59.dreamwidth.org/data/rss'
+      title: Matthew Garret
+    - url: 'http://f1lt3r.com/feed/'
+      title: Filt3r
+    - url: 'http://www.exploit-db.com/rss.html'
+      title: ExploitDB
+    - url: 'http://www.exploit-db.com/feed/'
+      title: ExploitDB Blog
+    - url: 'http://feeds.feedburner.com/TheHackersNews'
+      title: HackerNews
+    - url: 'http://singularityhub.com/feed/'
+      title: Singularity Hub
+    - url: 'http://rss.gmane.org/messages/complete/gmane.comp.security.openwall.announce'
+      title: OpenWall
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
