@@ -15,6 +15,10 @@
     format: Atom
   cache_dir: /tmp/feeds
   feeds:
+    - url: 'http://feeds.feedburner.com/EmbeddedInAcademia?format=xml'
+      title: EmbeddedInAcademia
+    - url: http://attrition.org/rss/attrition_news.rss
+      title: Attrition
     - url: http://lwn.net/headlines/newrss
       title: LWN
     - url: http://ci.bukkit.org/other/latest_recommended.rss
@@ -25,8 +29,6 @@
       title: JerkCity
     - url: 'http://blog.llvm.org/feeds/posts/default?alt=rss'
       title: LLVM Blog
-    - url: 'http://feeds.feedburner.com/EmbeddedInAcademia?format=xml'
-      title: EmbeddedInAcademia
     - url: http://syndication.thedailywtf.com/TheDailyWtf
       title: Daily WTF
     - url: 'http://feeds.feedburner.com/RossBencina?format=xml'
@@ -51,8 +53,6 @@
       title: A System Apart
     - url: http://redshirtlament.blogspot.com/feeds/posts/default?alt=rss
       title: Redshirt's Lament
-    - url: http://attrition.org/rss/attrition_news.rss
-      title: Attrition
     - url: http://perlnews.org/feed/
       title: Perl News
     - url: http://feeds.feedburner.com/gnucitizen
@@ -101,22 +101,22 @@
       title: HackerNews
     - url: 'http://singularityhub.com/feed/'
       title: Singularity Hub
+    - url: 'https://www.eventbrite.com/rest/organizer_list_events/1389133339'
+      title: OtherWorld Events
     - url: 'http://rss.gmane.org/messages/complete/gmane.comp.security.openwall.announce'
       title: OpenWall
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    - url: 'http://rss.feedsportal.com/c/32569/f/491735/index.rss'
+      title: The H Open Source
+    - url: 'http://rss.feedsportal.com/c/32569/f/491736/index.rss'
+      title: The H Security
+    - url: 'http://countercomplex.blogspot.com/feeds/posts/default?alt=rss'
+      title: CounterComplex
+    - url: 'http://www.clashsf.com/2/feed'
+      title: Clash
+    - url: 'http://stallman.org/rss/rss.xml'
+      title: Stallman
+    - url: 'http://feeds.feedburner.com/PerlWeekly'
+      title: Perl Weekly
+    - url: 'http://www.raspberrypi.org/feed'
+      title: Raspberry Pi
 
