@@ -5,7 +5,7 @@
   author:
     name: Mischa Spiegelmock
     email: mischa@int80.biz
-  entries: 80
+  entries: 70
   opml: opml.xml
   page:
     file: index.html
@@ -21,8 +21,6 @@
       title: Attrition
     - url: http://lwn.net/headlines/newrss
       title: LWN
-    - url: http://ci.bukkit.org/other/latest_recommended.rss
-      title: Latest Bukkit Recommended Builds
     - url: http://rss.slashdot.org/Slashdot/slashdot
       title: Slashdot
     - url: http://www.jerkcity.com/jc.rss
@@ -38,6 +36,8 @@
     - url: 'http://www.audiomulch.com/blog/feed'
       title: AudioMulch
     - url: http://alyssadiamond.wordpress.com/feed/
+      title: Lyzi
+    - url: http://lyzidiamond.com/feed/
       title: Lyzi
     - url: http://www.zeecc.com/index.php?format=feed&type=rss
       title: ZeEcC
@@ -69,8 +69,6 @@
       title: Chameleon
     - url: http://news.ycombinator.com/rss
       title: Hacker News
-    - url: 'http://www.facebook.com/feeds/page.php?id=173410149380712&format=rss20'
-      title: The Kapybara Kid
     - url: 'http://www.xbitlabs.com/misc/rss/'
       title: X-Bit Labs
     - url: 'http://feeds.feedburner.com/shortinfosec?format=xml'
@@ -113,10 +111,23 @@
       title: CounterComplex
     - url: 'http://www.clashsf.com/2/feed'
       title: Clash
-    - url: 'http://stallman.org/rss/rss.xml'
-      title: Stallman
     - url: 'http://feeds.feedburner.com/PerlWeekly'
       title: Perl Weekly
+    - url: 'http://blogs.perl.org/atom.xml'
+      title: Perl Blogs
+    - url: 'http://perlmonks.org/?node_id=30175;xmlstyle=rss;types=perlmeditation'
+      title: Perlmonks Meditation
     - url: 'http://www.raspberrypi.org/feed'
       title: Raspberry Pi
+    - url: 'http://feeds.bulknews.net/bulknews'
+      title: Bulknews
+    - url: 'http://textsfrombennett.tumblr.com/'
+      title: Texts From Bennett
+    - url: 'http://www.alistapart.com/site/rss'
+      title: A List Apart
+    - url: 'http://feeds.feedburner.com/infosecResources'
+      title: Infosec Resources
+    - url: 'http://gorrie.org/feed/'
+      title: Gorrie
+
 
