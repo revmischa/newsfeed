@@ -15,10 +15,18 @@
     format: Atom
   cache_dir: /tmp/feeds
   feeds:
-    - url: 'http://feeds.feedburner.com/EmbeddedInAcademia?format=xml'
-      title: EmbeddedInAcademia
+    - url: http://feeds.feedburner.com/IgnoreTheCode?format=xml
+      title: Ignore The Code
+    - url: http://prog21.dadgum.com/atom.xml
+      title: Programming in the 21st Century
+    - url: http://www.howtospotapsychopath.com/feed/
+      title: How to Spot a Psychopath
+    - url: http://goddammitberkeley.tumblr.com/rss
+      title: Goddammit Berkeley
     - url: http://attrition.org/rss/attrition_news.rss
       title: Attrition
+    - url: http://basalgangster.macgui.com/RetroMacComputing/The_Long_View/rss.xml
+      title: The Long View
     - url: http://lwn.net/headlines/newrss
       title: LWN
     - url: http://rss.slashdot.org/Slashdot/slashdot
@@ -27,8 +35,6 @@
       title: JerkCity
     - url: 'http://blog.llvm.org/feeds/posts/default?alt=rss'
       title: LLVM Blog
-    - url: http://syndication.thedailywtf.com/TheDailyWtf
-      title: Daily WTF
     - url: 'http://feeds.feedburner.com/RossBencina?format=xml'
       title: Ross Bencina
     - url: 'http://acemonstertoys.org/rss.xml'
@@ -41,18 +47,14 @@
       title: Lyzi
     - url: http://www.zeecc.com/index.php?format=feed&type=rss
       title: ZeEcC
-    - url: 'http://feeds.feedburner.com/GoogleOpenSourceBlog'
-      title: Google Open Source
     - url: http://www.ucdot.org/ucdot.rss
       title: uClinux
     - url: http://free-electrons.com/feed/
       title: Free Electrons
     - url: http://scottlocklin.wordpress.com/feed/
       title: Locklin on Science
-    - url: http://www.asystemapart.com/rss
-      title: A System Apart
     - url: http://redshirtlament.blogspot.com/feeds/posts/default?alt=rss
-      title: Redshirt's Lament
+      title: "Redshirt's Lament"
     - url: http://perlnews.org/feed/
       title: Perl News
     - url: http://feeds.feedburner.com/gnucitizen
@@ -67,10 +69,6 @@
       title: Dilby
     - url: 'http://feeds.feedburner.com/chameleonosx86?format=xml'
       title: Chameleon
-    - url: http://news.ycombinator.com/rss
-      title: Hacker News
-    - url: 'http://www.xbitlabs.com/misc/rss/'
-      title: X-Bit Labs
     - url: 'http://feeds.feedburner.com/shortinfosec?format=xml'
       title: InfoSec Short Takes
     - url: 'http://www.dc3.mil/feeds/dispatch.xml'
@@ -91,22 +89,14 @@
       title: Matthew Garret
     - url: 'http://f1lt3r.com/feed/'
       title: Filt3r
-    - url: 'http://www.exploit-db.com/rss.html'
-      title: ExploitDB
     - url: 'http://www.exploit-db.com/feed/'
       title: ExploitDB Blog
-    - url: 'http://feeds.feedburner.com/TheHackersNews'
-      title: HackerNews
-    - url: 'http://singularityhub.com/feed/'
-      title: Singularity Hub
     - url: 'https://www.eventbrite.com/rest/organizer_list_events/1389133339'
       title: OtherWorld Events
     - url: 'http://rss.gmane.org/messages/complete/gmane.comp.security.openwall.announce'
       title: OpenWall
     - url: 'http://rss.feedsportal.com/c/32569/f/491735/index.rss'
       title: The H Open Source
-    - url: 'http://rss.feedsportal.com/c/32569/f/491736/index.rss'
-      title: The H Security
     - url: 'http://countercomplex.blogspot.com/feeds/posts/default?alt=rss'
       title: CounterComplex
     - url: 'http://www.clashsf.com/2/feed'
@@ -117,8 +107,6 @@
       title: Perl Blogs
     - url: 'http://perlmonks.org/?node_id=30175;xmlstyle=rss;types=perlmeditation'
       title: Perlmonks Meditation
-    - url: 'http://www.raspberrypi.org/feed'
-      title: Raspberry Pi
     - url: 'http://feeds.bulknews.net/bulknews'
       title: Bulknews
     - url: 'http://textsfrombennett.tumblr.com/'
@@ -129,5 +117,15 @@
       title: Infosec Resources
     - url: 'http://gorrie.org/feed/'
       title: Gorrie
+    - url: 'http://highlyscalable.wordpress.com/feed/'
+      title: Highly Scalable
+    - url: 'http://megacycles.tumblr.com/rss'
+      title: Megacycles
+    - url: 'http://weirdethel.blogspot.com/feeds/posts/default?alt=rss'
+      title: Odin
+    - url: 'http://thelastpsychiatrist.com/atom.xml'
+      title: The Last Psychiatrist
+
+
 
 
