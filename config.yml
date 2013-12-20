@@ -3,8 +3,8 @@
   description: desc
   url: http://news.int80.biz/
   author:
-    name: Mischa Spiegelmock
-    email: mischa@int80.biz
+    name: le author
+    email: 
   entries: 70
   opml: opml.xml
   page:
@@ -15,6 +15,10 @@
     format: Atom
   cache_dir: /tmp/feeds
   feeds:
+    - url: http://sealedabstract.com/feed/
+      title: SealedAbstract
+    - url: http://planet.postgresql.org/rss20.xml
+      title: Planet PostgreSQL
     - url: http://feeds.feedburner.com/IgnoreTheCode?format=xml
       title: Ignore The Code
     - url: http://prog21.dadgum.com/atom.xml
@@ -125,7 +129,9 @@
       title: Odin
     - url: 'http://thelastpsychiatrist.com/atom.xml'
       title: The Last Psychiatrist
-
-
-
-
+#    - url: 'http://gnol-gnol.tumblr.com/rss'
+#      title: Gnol
+    - url: 'http://transsoberidentity.tumblr.com/rss'
+      title: Transsober Identity
+    - url: 'http://reverse.put.as/feed/'
+      title: OSX Reverse Engineering
